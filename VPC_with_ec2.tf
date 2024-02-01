@@ -6,7 +6,7 @@ provider "aws" {
 # Create EC2
 resource "aws_instance" "Double-Server" {
   ami = "ami-0a3c3a20c09d6f377"
-  key_name = "._."
+  key_name = "key_name"
   instance_type = "t2.micro"
 }
 
